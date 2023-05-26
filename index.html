@@ -23,7 +23,7 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height:80px;
+    height:5rem;
     background-color:  rgb(17, 17, 65);
 }
 nav ul{
@@ -33,7 +33,7 @@ nav ul{
 }
 nav ul li{
   list-style: none;
-  margin:0 23px;
+  margin:0 1.437rem;
 }
 nav ul li a{
   text-decoration: none;
@@ -45,14 +45,14 @@ nav ul li a:hover{
   font-size: 1.01rem;
 }
 .left{
-  margin-left: -90px;
+  margin-left: -5.62rem;
   font-size: 1.5em;
 }
 .firstSection{
   display: flex;
   justify-content: space-around;
   align-items: start;
-  margin: 80px 0;
+  margin: 5rem 0;
 
 }
 .firstSection > div{
@@ -61,28 +61,28 @@ nav ul li a:hover{
 }
 .leftSection{
   font-size: 3rem;
-  margin: 70px 0;
+  margin: 4.375rem 0;
 }
 .leftSection .buttons{
   text-decoration: none;
   color: white;
-  margin-top: 50px;
-  padding: 40px;
+  margin-top: 3.125rem;
+  padding: 2.5rem;
 }
 .leftSection .btn{
   text-decoration: none;
-  padding: 12px;
+  padding: 1.33rem;
   background: #1e2167;
   color: white;
-  border: 2px solid white;
+  border: 0.125rem solid white;
   border-radius: 6px;
-  font-size: 20px;
+  font-size: 1.25rem;
   cursor: pointer;
 }
 .rightSection img{
  
     width: 80%;
-    margin: 50px 0;
+    margin: 3.125rem 0;
 
 }
 .purple{
@@ -90,6 +90,21 @@ nav ul li a:hover{
 }
 #element{
   color: rgb(151, 66, 231);
+}
+@media(max-width:998px){
+  html { font-size: 55%;
+  }
+}
+@media(max-width:768px){
+  html { font-size: 45%;
+  flex-direction: column-reverse;
+  }
+  .leftSection .buttons{
+  text-decoration: none;
+  color: white;
+  margin-top: 3.125rem;
+  padding: 0rem;
+}
 }
 
   </style>
